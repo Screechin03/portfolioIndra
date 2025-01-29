@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-grid {
+        background-image: linear-gradient(rgba(249, 248, 248, 0.1) 1px,
+                transparent 2px),
+            linear-gradient(90deg,
+                rgba(255, 255, 255, 1) 1px,
+                transparent 1px);
+        background-size: 40px 40px;
+    }
+}
